@@ -84,7 +84,7 @@ b = new Book[n];
         s.close();
     }
    
-    static void display(Book[] b) {
+    void display(Book[] b) {
         for (int i = 0; i < b.length; i++) {
             System.out.println("Book " + (i + 1) + ":");
             System.out.println(b[i].toString());
