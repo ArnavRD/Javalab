@@ -58,7 +58,7 @@ class Run {
        
         System.out.print("Enter number of books: ");
         int n = s.nextInt();
-        s.nextLine(); // Consume newline
+        s.nextLine();
        
         Book b[];
 b = new Book[n];
@@ -76,7 +76,7 @@ b = new Book[n];
            
             System.out.print("Enter the number of pages in the book: ");
             b[i].setNumPages(s.nextInt());
-            s.nextLine(); // Consume newline for next input
+            s.nextLine(); 
         }
        
         display(b);
