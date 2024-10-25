@@ -45,7 +45,7 @@ class Book {
         return num_pages;
     }
 
-    @Override
+    
     public String toString() {
         return "Name of the book: " + name + ", Author of the book: " + author +
                ", Price of the book: " + price + ", Total number of pages: " + num_pages;
