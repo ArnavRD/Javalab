@@ -1,5 +1,4 @@
 import java.util.*;
-System.out.println("ArnavDinesh 1BM23CS052);
 abstract class Shape {
     int dimension1;
     int dimension2;
@@ -68,6 +67,7 @@ class shapearea {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("ArnavDinesh 1BM23CS052);
 
         System.out.println("Enter length and width for Rectangle:");
 
