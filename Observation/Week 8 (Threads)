@@ -1,0 +1,36 @@
+class CollegeThread extends Thread {
+    public void run() {
+        while (true) {
+            System.out.println("BMS College of Engineering");
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+        }
+    }
+}
+
+class CseThread extends Thread {
+    public void run() {
+        while (true) {
+            System.out.println("CSE");
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+        }
+    }
+}
+
+public class run {
+    public static void main(String[] args) {
+        CollegeThread collegeThread = new CollegeThread();
+        CseThread cseThread = new CseThread();
+        collegeThread.start();
+        cseThread.start();
+    }
+}
