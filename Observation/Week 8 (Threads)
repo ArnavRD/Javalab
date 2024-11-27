@@ -15,6 +15,7 @@ class CollegeThread extends Thread {
 class CseThread extends Thread {
     public void run() {
         while (true) {
+            System.out.println("Arnav Dinesh 1BM23CS052");
             System.out.println("CSE");
             try {
                 Thread.sleep(2000);
@@ -28,7 +29,6 @@ class CseThread extends Thread {
 
 public class run {
     public static void main(String[] args) {
-        System.out.println("Arnav Dinesh 1BM23CS052");
         CollegeThread collegeThread = new CollegeThread();
         CseThread cseThread = new CseThread();
         collegeThread.start();
